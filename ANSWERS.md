@@ -15,4 +15,4 @@
 - [ ] Why is it important to test our apps?
     
     With testing you are able to determine bugs and other issues within your p
-applications before launching it to the public. It is important to test your projects in order to prevent complications down the line such as manual testing which can be time consuming and expensive.
+applications before launching it to the public. It is important to test your projects in order to prevent complications down the line such as manual testing which

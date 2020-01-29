@@ -20,6 +20,7 @@ class App extends React.Component {
       .then(response => this.setState({ players: response }))
       .catch(err => console.log("error"));
 }
+
 render() {
   console.log("rendering");
   console.log(this.state.players);
@@ -27,7 +28,7 @@ render() {
     <>
     <Navbar /> 
     <h1 className="App-header">Women's World Cup ⚽</h1>
-    <div className="cardForPlayers">
+    <div className="cardForPlayers" data-testid='MainApp'>
       {this.state.players.map(item => (
         <Card 
         key={item.id}
